@@ -6,10 +6,8 @@ import { FooterTop } from "../components/Footer/footerTop";
 import { IProductData } from "../interfaces/productDetailsPage";
 import Head from "next/head";
 import { ProductCarousel } from "@/components/ProductCarousel/imageCarousel";
+import { FrequentlyBought } from "@/components/FrequentlyBought/frequentlyBought";
 
-const FrequentlyBought = dynamic(() =>
-    import('../components/FrequentlyBought/frequentlyBought').then((mod) => mod.FrequentlyBought)
-)
 interface IHomePageProps {
     productDetails: IProductData;
 }

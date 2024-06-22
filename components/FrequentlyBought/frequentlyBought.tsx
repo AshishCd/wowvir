@@ -1,6 +1,13 @@
-import { ProductCarousel } from "./productCarousel";
+import dynamic from "next/dynamic";
 
-interface IFrequentlyBoughtProps {}
+const ProductCarousel = dynamic(() =>
+    import('./productCarousel').then((mod) => mod.ProductCarousel),
+    {
+        loading: () => <p>{"Loading Similar Products..."}</p>,
+    }
+);
+
+interface IFrequentlyBoughtProps { }
 
 export const FrequentlyBought: React.FunctionComponent<IFrequentlyBoughtProps> = () => {
     return (
