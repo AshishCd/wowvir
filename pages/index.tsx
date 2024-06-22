@@ -30,7 +30,7 @@ const Home: React.FunctionComponent<IHomePageProps> = (props) => {
                 </div>
                 <main className="p-8 size-full min-h-screen lg:px-24 lg:pt-12 pb-4">
                     <div className="flex flex-col lg:flex-row justify-between size-full">
-                        <div className="flex-1 px-16 py-5">
+                        <div className="flex-1 lg:px-16 lg:py-5">
                             <ProductCarousel slides={productItems[0].images} />
                         </div>
                         <div className="flex-1">

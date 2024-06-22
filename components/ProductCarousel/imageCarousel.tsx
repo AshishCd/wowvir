@@ -34,7 +34,7 @@ export const ProductCarousel: React.FunctionComponent<IProductCarouselProps> = (
                 })}
             </div>
 
-            <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl">
+            <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-6 text-3xl">
                 <button onClick={previousSlide}>
                     <BsFillArrowLeftCircleFill className="text-primary-light" />
                 </button>
