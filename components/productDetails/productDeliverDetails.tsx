@@ -33,7 +33,7 @@ export const ProductDeliveryDetails: React.FunctionComponent<IProductDeliveryDet
         <div className="text-xs">
             {contentArr.map((content) => {
                 return (
-                    <div key={content.id} className="flex gap-2 items-center mb-3 text-primary-black">
+                    <div key={content.id} className="flex gap-2 items-center mb-3 text-black-primary">
                         <Image src={content.icon} alt={content.text} width={24} height={24} decoding="async" />
                         {content.text}
                     </div>

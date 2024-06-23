@@ -8,7 +8,7 @@ export const ProductDescription: React.FunctionComponent<IProductDescription> = 
     return (
         <>
             <span className="text-primary-light border-b-2 border-b-primary-light text-sm pb-1">{"Description"}</span>
-            <div className="mt-4 text-primary-black">
+            <div className="mt-4 text-black-primary">
                 <div dangerouslySetInnerHTML={{ __html: description }} />
             </div>
         </>
