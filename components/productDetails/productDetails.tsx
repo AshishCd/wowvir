@@ -16,8 +16,8 @@ export const ProductDetails: React.FunctionComponent<IProductDetails> = ({name, 
     return (
         <div>
             <div className="mt-8 lg:mt-0 text-sky-600 text-xs font-semibold">{shopName}</div>
-            <div className="text-16 lg:text-2xl mt-2">{name}</div>
-            <div className="flex gap-3 items-center">
+            <div className="text-16 lg:text-2xl mt-2 text-black-primary">{name}</div>
+            <div className="flex gap-3 items-center text-black-primary">
                 <div className="text-[18px] mt-1 font-semibold">
                     {`AED ${price}`}
                 </div>
