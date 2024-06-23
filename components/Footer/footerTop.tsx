@@ -34,7 +34,7 @@ export const FooterTop: React.FunctionComponent = React.memo(() => {
                     return (
                         <div className="my-2 lg:my-0 flex gap-2 items-center" key={item.id}>
                             <Image alt={item.text} style={{width:"56px", height:"70px"}} width={0} height={0} src={item.image} loading="lazy" />
-                            <span className="text-sm lg:text-md">{item.text}</span>
+                            <span className="text-sm lg:text-md text-primary-black">{item.text}</span>
                         </div>
                     )
                 })
